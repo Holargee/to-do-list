@@ -1,0 +1,62 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>To-Do app</title>
+     <script src="to-do.js"></script>
+     <script src="https://kit.fontawesome.com/2054c0ab80.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet"href="to-do.css">
+    </head>
+    <body>
+        <center>
+        <div class="head">
+            <div class="to">TODO</div>
+  <div class="inp"><input type="text"placeholder="Create a new todo..."class="input"id="input"><div class="add"onclick="add();any()">Add+</div></div>
+        </div>
+        
+        <div class="toli">
+ <label class="line"id="ln1"><input type="checkbox"class="check none"id="chk1"onchange="chk1()"><div class="cir"><center><i class="che none"id="che1">&#x2714</i></center></div><span class="txt"id="txt1"></span><span class="x"onclick="x1()">×</span>
+ <br> <hr>
+ </label>
+      <label class="line"id="ln2"><input type="checkbox"class="check none"id="chk2"onchange="chk2()"><div class="cir"><center><i class="che none"id="che2">&#x2714</i></center></div><span class="txt"id="txt2"></span><span class="x"onclick="x2()">×</span>
+      <br> <hr>
+      </label>
+ <label class="line"id="ln3"><input type="checkbox"class="check none"onchange="chk3()" id="chk3"><div class="cir"><center><i class="che none"id="che3">&#x2714</i></center></div><span class="txt"id="txt3"></span><span class="x"onclick="x3()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln4"><input type="checkbox"class="check none"onchange="chk4()" id="chk4"><div class="cir"><center><i class="che none"id="che4">&#x2714</i></center></div><span class="txt"id="txt4"></span><span class="x"onclick="x4()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln5"><input type="checkbox"onchange="chk5()"class="check none"id="chk5"><div class="cir"><center><i class="che none"id="che5">&#x2714</i></center></div><span class="txt"id="txt5"></span><span class="x"onclick="x5()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln6"><input type="checkbox"class="check none"onchange="chk6()"  id="chk6"><div class="cir"><center><i class="che none"id="che6">&#x2714</i></center></div><span class="txt"id="txt6"></span><span class="x"onclick="x6()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln7"><input type="checkbox"class="check none"onchange="chk7()"id="chk7"><div class="cir"><center><i class="che none"id="che7">&#x2714</i></center></div><span class="txt"id="txt7"></span><span class="x"onclick="x7()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln8"><input type="checkbox"class="check none"onchange="chk8()" id="chk8"><div class="cir"><center><i class="che none"id="che8">&#x2714</i></center></div><span class="txt"id="txt8"></span><span class="x"onclick="x8()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln9"><input type="checkbox"class="check none"onchange="chk9()" id="chk9"><div class="cir"><center><i class="che none"id="che9">&#x2714</i></center></div><span class="txt"id="txt9"></span><span class="x"onclick="x9()">×</span>
+ <br> <hr>
+ </label>
+ <label class="line"id="ln10"><input type="checkbox"class="check none"onchange="chk10()" id="chk10"><div class="cir"><center><i class="che none"id="che10">&#x2714</i></center></div><span class="txt"id="txt10"></span><span class="x"onclick="x10()">×</span>
+ <br> <hr>
+ </label>
+ <input type="text" id="num"value="0"disabled style="display:none;">
+ <div class="line"><span class="check"><span id="nu"style="display:none;">0</span><span id="number">0</span> items left</span><span class="xi">Clear Completed</span></div>
+        </div>
+   <input type="text"id="alli"value="0"class="none">
+  <input type="text"id="activ"value="0"class="none">
+  <input type="text"id="acti"value="0"class="none">
+        <div class="down">
+   <label class="all"id="all"onclick="alla()"><input type="radio"id="rall"name="sta"checked="checked"class="none">All </label>&nbsp;&nbsp;&nbsp;
+  <label onclick="active()"id="act"><input type="radio"id="ract"name="sta"class="none">Active </label>&nbsp;&nbsp;&nbsp;
+  <label id="comp"onclick="comp()"><input type="radio"id="rcom"name="sta"class="none">Completed</label>
+          
+        </div>
+        </center>
+        </body>
+</html>
